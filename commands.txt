@@ -5,4 +5,8 @@ git rm --cached <file_name>
 git commit -m "adding commands"
 git restore <file_name>
 git log
+git log --oneline
+git log --oneline --pretty
+git --global user.name "username"
+git --global user.email "email_address"
 
